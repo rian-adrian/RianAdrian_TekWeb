@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: yellow; /* Ganti latar belakang body menjadi biru */
-    color: white; /* Ganti warna tulisan body menjadi putih */
+    background-color: yellow; 
+    color: white; 
 }
 
 .container {
@@ -11,8 +11,8 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: white; /* Ganti latar belakang container menjadi biru */
-    color: black; /* Ganti warna tulisan container menjadi putih */
+    background-color: white; 
+    color: black; 
 }
 
 .form {
