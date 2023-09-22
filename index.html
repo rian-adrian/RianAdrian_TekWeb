@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Aritmatika</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Kalkulator Aritmatika</h1>
+        <strong><p>Nama :Rian Adrian</p>
+        <p>Nim  : 2215101009</p></strong>
+        <div>
+            <label for="operation">Pilih Operasi:</label>
+            <select id="operation">
+                <option value="fibonacci">Deret Fibonacci</option>
+                <option value="volume">Volume Bangun Ruang</option>
+            </select>
+        </div>
+        <div id="fibonacci-form" class="form">
+            <label for="fibonacci-input">Masukkan n:</label>
+            <input type="number" id="fibonacci-input" min="1">
+            <button id="calculate-fibonacci">Hitung</button>
+            <p id="fibonacci-result"></p>
+        </div>
+        <div id="volume-form" class="form">
+            <label for="shape">Pilih Bentuk:</label>
+            <select id="shape">
+                <option value="kubus">Kubus</option>
+                <option value="balok">Balok</option>
+                <option value="silinder">Silinder</option>
+            </select><br>
+
+            <label for="length">Panjang:</label>
+            <input type="number" id="length" min="1"><br>
+
+            <label for="width">Lebar:</label>
+            <input type="number" id="width" min="1"><br>
+
+            <label for="height">Tinggi:</label>
+            <input type="number" id="height" min="1"><br>
+
+            <button id="calculate-volume">Hitung</button>
+
+            <p id="volume-result"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
